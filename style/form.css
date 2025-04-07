@@ -6,15 +6,28 @@
 
 #wrapper {
 	width: 60%;
-	margin-left:4%;
+	margin-left: 4%;
 }
 
 div#formcol1 {
-	float:left;	
+	float: left;
 	width: 100%;
 }
 
+label {
+	margin-right: .3em;
+	width: 4.75em;
+	display: inline-block;
+	/* width will not work for “inline” elements such as
+	“label”. Therefore we need to set it to “inline-block” */
+}
 
+input {
+	display: inline-block;
+}
+
+#formcol1 li {
+	list-style: none;
+}
 
 /* end of form css */
-	
