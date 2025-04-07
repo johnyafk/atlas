@@ -24,10 +24,22 @@ label {
 
 input {
 	display: inline-block;
+	margin-bottom: 3px;
 }
 
 #formcol1 li {
 	list-style: none;
+}
+
+#formcol1 input.reqfield {
+	background:#FF9;
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	/*color: #FFF !important;
+	background-color: #BB3D2F !important;*/
+	outline: 1px solid #767676;
+	box-shadow: 0 0 10px #767676;
 }
 
 /* end of form css */
